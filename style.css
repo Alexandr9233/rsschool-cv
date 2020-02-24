@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 50%;
+    height: auto;
+    border: 1px solid silver;
+    padding: 2%;
+}
+
+ main {
+     display: flex;
+     align-items: stretch;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ 
+ .avatar img {
+    width: 70%;
+    text-align: center;
+ }
+ .picture {
+     text-align: center;
+ }
+
+ .avatar, .personal-informayion {
+     flex-basis: 40%;
+    
+}
+ p {
+
+    font-weight: 700;
+}
+
+span {
+
+    font-weight: 300;
+}
+
+.personal-informayion {
+    order: 1;
+}
+
+.avatar {
+    order: 2;
+}
+
+
